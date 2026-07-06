@@ -1,7 +1,7 @@
 -- Library.lua
 local UserInputService = game:GetService("UserInputService")
 local ConfigManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/geragori11/Menu/refs/heads/main/UI/ConfigManager.lua"))()
-local UIBuilder = loadstring(game:HttpGet("СЮДА_ССЫЛКУ_НА_UIBuilder.lua"))()
+local UIBuilder = loadstring(game:HttpGet("https://raw.githubusercontent.com/geragori11/Menu/refs/heads/main/UI/UIBuilder.lua"))()
 
 local Library = {}
 Library.Flags = {} -- Хранилище состояний всех тогглов/слайдеров для конфига
